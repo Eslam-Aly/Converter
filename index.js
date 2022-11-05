@@ -16,11 +16,11 @@ btn.addEventListener("click", function(){
     length.innerHTML= `${convetedNum.value} meter = ${getResults(oneMeter)} feet 
     | ${convetedNum.value} feet = ${getResults(oneFeet)} meter`
 
-    volume.innerHTML= `${convetedNum.value} liters = ${getResults(oneMeter)} gallons 
-    | ${convetedNum.value} gallons = ${getResults(oneFeet)} liters`
+    volume.innerHTML= `${convetedNum.value} liters = ${getResults(oneliter)} gallons 
+    | ${convetedNum.value} gallons = ${getResults(oneGallons)} liters`
 
-    mass.innerHTML= `${convetedNum.value} kilos = ${getResults(oneMeter)} pounds 
-    | ${convetedNum.value} pounds = ${getResults(oneFeet)} kilos`
+    mass.innerHTML= `${convetedNum.value} kilos = ${getResults(oneKilogram)} pounds 
+    | ${convetedNum.value} pounds = ${getResults(onePounds)} kilos`
 })
 
 
